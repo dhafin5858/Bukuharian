@@ -9,154 +9,141 @@
     <title>Belajar</title>
 </head>
 <body>
-  
- <!-- component -->
-<div class="container bg-gray-200 mx-auto w-full h-full">
-    <h1 class="text-center text-4xl font-mono">Buku Harian Saya</h1>
-    <div class="mx-auto">
-      <img class="rounded-full w-60 mx-auto" src="/src/img/IMG_20230209_175430_0653.jpg" alt="">
-  
-     
-    </div>
-    <div class="relative wrap overflow-hidden p-10 h-full">
-      <div class="border-2-2 absolute border-opacity-20 border-gray-700 h-full border" style="left: 50%"></div>
-      <!-- right timeline -->
-      <div class="mb-8 flex justify-between items-center w-full right-timeline">
-        <div class="order-1 w-5/12"></div>
-        <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-          <h1 class="mx-auto font-semibold text-lg text-white">1</h1>
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto flex flex-col">
+      <div class="lg:w-4/6 mx-auto">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="object-cover object-center h-full w-full" src="/src/img/awd.jpg">
         </div>
-        <div class="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
-          <h3 class="mb-3 font-bold text-gray-800 text-xl">25 September</h3>
-          <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">Saya bersama teman saya merayakan ulang tahun saya dan Lorem, ipsum dolor.</p>
-        </div>
-      </div>
-  
-      <!-- left timeline -->
-      <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
-        <div class="order-1 w-5/12"></div>
-        <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-          <h1 class="mx-auto text-white font-semibold text-lg">2</h1>
-        </div>
-        <div class="order-1 bg-gray-800 rounded-lg shadow-xl w-5/12 px-6 py-4">
-          <h3 class="mb-3 font-bold text-white text-xl">September 27</h3>
-          <p class="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">Alarm berbunyi, membangunkanku dari mimpi menjadi pro-gamer. Langsung semangat, karena hari ini ada turnamen online game favoritku. Sarapan kilat dengan roti isi telur dan segelas susu coklat. Sambil sarapan, aku menonton video gameplay para pemain profesional untuk mempelajari strategi terbaru.</p>
-        </div>
-      </div>
-      
-      <!-- right timeline -->
-      <div class="mb-8 flex justify-between items-center w-full right-timeline">
-        <div class="order-1 w-5/12"></div>
-        <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-          <h1 class="mx-auto font-semibold text-lg text-white">3</h1>
-        </div>
-        <div class="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
-          <h3 class="mb-3 font-bold text-gray-800 text-xl">September 28</h3>
-          <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">Main basket bareng teman-teman, keringat membasahi tapi hati senang. Olahraga bareng bikin seger dan penuh energi.
-            Belajar buat persiapan ujian sekolah. Semangat dapet nilai bagus dan buktiin ke orang tua kalau aku anak rajin dan cerdas.</p>
-        </div>
-      </div>
-  
-      <!-- left timeline -->
-      <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
-        <div class="order-1 w-5/12"></div>
-        <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-          <h1 class="mx-auto text-white font-semibold text-lg">4</h1>
-        </div>
-        <div class="order-1 bg-gray-800 rounded-lg shadow-xl w-5/12 px-6 py-4">
-          <h3 class="mb-3 font-bold text-white text-xl">September 29</h3>
-          <p class="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">Hari ini merupakan hari yang penuh dengan aktivitas dan pencapaian, baik di bidang game online, olahraga, maupun pendidikan. Pengalaman hari ini menjadi motivasi untuk terus berkembang dan mencapai tujuan yang lebih tinggi di masa depan.
-            </p>
+        <div class="flex flex-col sm:flex-row mt-10">
+          <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
+            <div class="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
+             <img src="/src/img/IMG_20230209_175430_0653.jpg" alt="">
+            </div>
+            <div class="flex flex-col items-center text-center justify-center">
+              <h2 class="font-medium title-font mt-4 text-gray-900 text-lg">Muhammad Dhafin</h2>
+              <div class="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
+              <p class="text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis!</p>
+            </div>
+          </div>
+          <div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
+            <p class="leading-relaxed text-lg mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque atque animi eius. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt dignissimos vero, dolorum, possimus provident necessitatibus ipsam quasi veniam corporis nam reiciendis quo repudiandae delectus corrupti ea deserunt?</p>
+            <a class="text-indigo-500 inline-flex items-center">Learn More
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
         </div>
       </div>
     </div>
-    <div>
-        
-
-<!-- component -->
-<section class=" bg-blue-500ray-50">
-  <div class="py-10  sm:py-16 block lg:py-24 relative bg-opacity-50  z-40  " >
-
-
-      <div
-          class="relative mx-auto h-full px-4 pb-20   md:pb-10 sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-8">
-
-          <div class=" absolute  top-0 -right-1/4 z-0  opacity-10 ">
-              <svg width="800px" height="800px" viewBox="0 0 24 24"
-                  class="w-96 z-0  h-full    object-fill fill-g text-g" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" clip-rule="evenodd"
-                      d="M12 6C12 5.44772 11.5523 5 11 5C10.4477 5 10 5.44772 10 6V16C10 16.5523 10.4477 17 11 17C11.5523 17 12 16.5523 12 16V6ZM9 9C9 8.44772 8.55228 8 8 8C7.44772 8 7 8.44772 7 9V16C7 16.5523 7.44772 17 8 17C8.55228 17 9 16.5523 9 16V9ZM15 9C15 8.44772 14.5523 8 14 8C13.4477 8 13 8.44772 13 9V16C13 16.5523 13.4477 17 14 17C14.5523 17 15 16.5523 15 16V9ZM18 13C18 12.4477 17.5523 12 17 12C16.4477 12 16 12.4477 16 13V16C16 16.5523 16.4477 17 17 17C17.5523 17 18 16.5523 18 16V13ZM6 15C6 14.4477 5.55228 14 5 14C4.44772 14 4 14.4477 4 15V16C4 16.5523 4.44772 17 5 17C5.55228 17 6 16.5523 6 16V15ZM21 15C21 14.4477 20.5523 14 20 14C19.4477 14 19 14.4477 19 15V16C19 16.5523 19.4477 17 20 17C20.5523 17 21 16.5523 21 16V15ZM4 18C3.44772 18 3 18.4477 3 19C3 19.5523 3.44772 20 4 20H21C21.5523 20 22 19.5523 22 19C22 18.4477 21.5523 18 21 18H4Z" />
-              </svg>
-          </div>
-
-          <div class=" absolute -bottom-0 -left-1/4 z-0  opacity-10 ">
-              <svg width="800px" height="800px" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg"
-                  class="w-48 z-0  h-full -rotate-90   object-fill fill-r text-r">
-                  <path
-                      d="M32 225h12.993A4.004 4.004 0 0 0 49 220.997V138.01c0-4.976.724-5.04 1.614-.16l12.167 66.708c.397 2.177 2.516 3.942 4.713 3.942h8.512a3.937 3.937 0 0 0 3.947-4S79 127.5 80 129s14.488 52.67 14.488 52.67c.559 2.115 2.8 3.83 5.008 3.83h8.008a3.993 3.993 0 0 0 3.996-3.995v-43.506c0-4.97 1.82-5.412 4.079-.965l10.608 20.895c1.001 1.972 3.604 3.571 5.806 3.571h9.514a3.999 3.999 0 0 0 3.993-4.001v-19.49c0-4.975 2.751-6.074 6.155-2.443l6.111 6.518c1.51 1.61 4.528 2.916 6.734 2.916h7c2.21 0 5.567-.855 7.52-1.92l9.46-5.16c1.944-1.06 5.309-1.92 7.524-1.92h23.992a4.002 4.002 0 0 0 4.004-3.992v-7.516a3.996 3.996 0 0 0-4.004-3.992h-23.992c-2.211 0-5.601.823-7.564 1.834l-4.932 2.54c-4.423 2.279-12.028 3.858-16.993 3.527l2.97.198c-4.962-.33-10.942-4.12-13.356-8.467l-11.19-20.14c-1.07-1.929-3.733-3.492-5.939-3.492h-7c-2.21 0-4 1.794-4 4.001v19.49c0 4.975-1.14 5.138-2.542.382l-12.827-43.535c-.625-2.12-2.92-3.838-5.127-3.838h-8.008c-2.207 0-3.916 1.784-3.817 4.005l1.92 42.998c.221 4.969-.489 5.068-1.585.224l-15.13-66.825c-.488-2.155-2.681-3.902-4.878-3.902h-8.512a3.937 3.937 0 0 0-3.947 4s.953 77-.047 75.5-13.937-92.072-13.937-92.072C49.252 34.758 47.21 33 45 33H31.999"
-                      fill-rule="evenodd" />
-              </svg>
-          </div>
-          <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 relative">
-              <div class="max-w-xl mx-auto text-center">
-                  <div class="inline-flex px-4 py-1.5 mx-auto rounded-full  ">
-                      <p class="text-4xl font-semibold tracking-widest text-g uppercase">Keinginan Saya</p>
-                  </div>
-                  <p class="mt-4 text-base leading-relaxed text-gray-600 group-hover:text-white"> Ini adalah keinginan saya saat ini
-                  </div>
-              <div class="grid grid-cols-1 gap-2 mt-12 sm:grid-cols-3 lg:mt-20   ">
-                  <a href="#"
-                      class="transition-all  duration-1000 bg-white hover:bg-gray-500  hover:shadow-xl m-2 p-4 relative z-40 group  ">
-                      <div
-                          class=" absolute  bg-blue-500/50 top-0 left-0 w-24 h-1 z-30  transition-all duration-200   group-hover:bg-white group-hover:w-1/2  ">
-                      </div>
-                      <div class="py-2 px-9 relative  ">
-                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAAAXNSR0IArs4c6QAAAmpJREFUaEPtmr1O3TAYhh9EL6AbElAVWBhY2PnrgrgJLoEBCZgYaIdOZUG9BS6gK1tpy86IhMQ/DExwBXC+6liKoji2EzsnOeezlCGJHX9PXn+vnZ8xRqyMjRgvCjzsiqvCqvCQ3QHXkP4CyJYtv3vHZOtkcQF/BQ5yZN96+3K8k0WBc7KpwoAO6S4ls+aw5rBOS2paXfIs5/OwzsM6D7dnQH8EXlzhDMs8PAP8BY6AwzLoYQA2sNN9UPEdWf4Wlq4D52ENpKi8V0TcBuBF4NyVewXnBfYP8Kng3COwALzmzw0S+DNwAswDF8AGcOcJ7oJdBm7apLDAngFTmaAegBVboJl6tmEsVUTZJeC2TTlcBGvic0HXgpVOmh7SZbAu6NqwTQP7wNqgo8A2CRwCm4eWfVlUmHk2m57OnB2ES8/1p4+sQZk4JOBN4DhnYOa8OO24Zep56pvclaez/6+WOod9DapsyBbxBCtrLpIS2BfWxOILXRk2pcKhsL7QtWBTAVeFdUHXhk0BLMPyn8WA7oFVj5WUxDXbNzrjzCFtSz0sZg6LG8v0MVnQowS8BlwHOOoE8L33Me8N2AeeA9paq8YE3rE8fMtQtC7mY0CEXCMmsPT7A9jNBOBaG4fEGqVubGAJSr4ny1uH1sGmMC2jwjbwy9Ogoijne5EUCvv2PZB6Cpy77frlQb88DCQTq3daJYdPW/6fVul/ZFWAq9/eZlqW/nSjwDkRtoCfzQgTrZdaCsvj3iXwIVo46S9UC1jCkwf6dctbw/Thh/dQy7TCu2t5C5dptTz88PAUOPyedauFKtwtvcKjHTmF3wGGDcE9uIvOSgAAAABJRU5ErkJggg=="/>
-                          <h3 class="mt-8 text-lg font-semibold text-black group-hover:text-white ">Bisnis
-                          </h3>
-                          <p class="mt-4 text-base text-gray-600 group-hover:text-white  ">Saya ingin membuat bisnis 
-                              Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                      </div>
-                  </a>
-
-                  <a href="#"
-                      class="transition-all  duration-1000 bg-white hover:bg-gray-500  hover:shadow-xl m-2 p-4 relative z-40 group  ">
-                      <div
-                          class=" absolute  bg-blue-500/50 top-0 left-0 w-24 h-1 z-30  transition-all duration-200   group-hover:bg-white group-hover:w-1/2  ">
-                      </div>
-                      <div class="py-2 px-9 relative  ">
-                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAAAXNSR0IArs4c6QAABKBJREFUaEPtmmvolEUUxn/Wh6ywNKy0i0mRmprd6K6JRhSKJUoI2k2EgoqiCxR961MQhWD1ISrQSAURTawUs8iuamUXSqMr3SjoSkXml2oemIV1dmZn5t3//13f3ffAsrDvmTnzzDnvOTPn2SH0mQzpM7zUgHvd47WHaw/32A7UId1jDm2BU3s4wcPHAnOBC4HTgDHAqIRxA6HyA/At8DHwJvAs8HPOxDkePhi4DbgfGJZjZBB1fwPuBZ4A/kuxkwr4aOA54LyUSbugswO4xnw+j9lOAXw6sKXEsI2tud3zWcCmdgoxwCcC7wDHdLKKEsf+A0wHdoZsxgDvASYEBj8DbLYJ5P2SQJ0FKOKuBOYHbH4HjAf+9j1vB/hOk5we9gz6ErgBeK0kkCEzs22yGu1ReAC4LwfwQcCPgJJVs+g3laLfSwAr29dZO08DP3lsHg98BAx3nim0Nf4vd0zIw9o9ZeVm+de+H6+XBPZt4CRr62vg3ADoK0z1eMGUSxfLYmB5KuA15t282lHeClxWAliZuAt4yLF1d+AVk9pLwExHXznm2lTA3wPHOcr3AA8GAC8EbjIl4Xz7XHXxcWBVwQ3KBXyzCeHHHFuqLoqK/SQU0r5Ty9nAex4A8oQW6BMlPXkmV/T+pYa05tbRVsfOZvkDOLITwL7NkWdXRtAsSvC0L0Gl/tYw73NSy5pzPOzT3QZcEgH8qk12IbVUb8b0SgGs9H9IBPA+YGgbndT3NaZXA/aUqmBfOmm3gL4L6b5LWno1D4SypHUkRWWnWbqRi7p98CgdcO7BIqYfy8i+8aV6OAYg93ms5vYcYAFKuR42A6+0h3MjovLvcOUB65qmC7mujyObOinqYuijpttTwLtFkNoxB0RIX2+vh5MTgahdo35UkXt0VwGrrfuk8dicRKCu2kYbEb9kjO8a4BnAWuCojMX6VBXqajPpvJ4iXQGsnpe8E7sypgCQjq6faii+nDCgdMAXA2r0he6+n9nE9KJpv6q3LTnFNgaV0MYFQO01PfBLgbcioDsCrH6QyxAeBsi4TyaZhb/h6yEBn1iGb0NkwaJg1SQ81aMnlnCaZTl80xzqYRqyelpiFaY6M08ERL24coJtuPk44vXAvIRwbFbRxohKcUUkgMraN55nIgd2O78LQ0v7KXRbesQQzbc6E6gN6v52OLDdJClf2RHjeHkm2Ia6Xg2FsSsiwi/wMAqPmnp+i6O8DLjdnSAEeIktK66+6uNSu5sittR7Vji78hWgtm5RSmaE8fIuwxyM9cz9AXCjpVgUdXcAup66Iv5rRSrgI0wofthEdeQ4Su+OTlaf5gzy6AqMEpXWkiva8DNMv/zPVMDSE9svBiFXFMYK54GQKcArgDyeI+fYCGkZE+OHQ6HtM/6rYSauAgaabLvI8tCp/yvxkmiNBccAS0+7JXLt5DZbrMSlU5HI6MEQ1et15iOPh0T/71gQ8mwOYOmqBosgV6IS8DNtiVJied4w7qsHA6VnTiUinc9lX+vQPw++sN9qJupk1lZSPBybo1LPa8CVcleBxdYeLrBplRpSe7hS7iqw2NrDBTatUkP6zsP/A4MrBkxbuS+mAAAAAElFTkSuQmCC"/>
-                          <h3 class="mt-8 text-lg font-semibold text-black group-hover:text-white ">                              Game</h3>
-                          <p class="mt-4 text-base text-gray-600 group-hover:text-white">Membeli semua game
-                              deserunt ullamco est sit aliqua dolor
-                              do amet sint. Velit officia consequat duis enim velit mollit.</p>
-                      </div>
-                  </a>
-                  <a href="#"
-                  class="transition-all  duration-1000 bg-white hover:bg-gray-500  hover:shadow-xl m-2 p-4 relative z-40 group  ">
-                  <div
-                      class=" absolute  bg-blue-500/50 top-0 left-0 w-24 h-1 z-30  transition-all duration-200   group-hover:bg-white group-hover:w-1/2  ">
-                  </div>
-                  <div class="py-2 px-9 relative  ">
-                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAAAXNSR0IArs4c6QAABN5JREFUaEPtmmmoVkUYx38afUjFKNestNQUJZL2cknISFwQEgVB3MLokxUURUUQtCBGghIogQt9SIrUDyooCmZSqRlREa1a0b5nhgThMn+ZF45z55wzZ73net/ni3jPM8/M7zwzzzLn7UE3kx7djJc28Pnu8baH2x4+z95AGVt6MDAOuAwYCJwGfgF+AN4D/sn4zi4GbgIuBwbZsb8BPwEfAL9mtHeOel5ggT0KTAfGpCxgP7AZWJWi9yAwB5iYovcJsANYAfyRFT4P8APAM0DfjJN9DzwFbHTGLTX/f9p6NIvJv629l7IMygKsrbY9wANp828BFgI9ze54DZiWNiDl+R5gNnA8xE4o8FBgZ8D2DZlTOp8CFwIjQwek6H1k4sUMQLsoUUKA+5uzegi4OsGSgsoB4GvglAW5FRiQtoCE5/8CX5njc4Gdu0+KrSPALcCfSXohwAetIZ+d14HlNnr6nl9vz9k9geBfmMi8BtgNKDhF5TpgqvGizvyoGHtvpx25NODVJhIu8xjXeZkL7AoEmWUW+SrQO0Zf9haZ9LY10N48YJ2J1L08+i/YDOI1lQR8BfCdZ5Ry7GTg88DFtdTGWs8Nccb9CEwBPsto71rgTaCfM+4/kwmusrVAB5NJwGtNsr/fGXECGA98mHFxLXUt5C3jnSvtH/RC7wC+yWnvRvOylOcvcsavNFH7YZ/NOGAZEJwrj9mEn3N9Z4epenrOVmRPFq2cgCesveiaVN0pjQZ7eCawzdFWSTcM0JZpkih6fwtc6izqTnP09roLjfOwbzurNHyoSaSRtbxsavf7nLW9CDwSCrzPnq2o/t026DSRWWlPFVxUVG9rp54jcR7+0lMFjQaUJ5so6q7UmUVFndUNocCqVi5xlFU1/d5EWmCErcqiy9O5VlYI8rDKtOGOrtrArLmyrvdzO/COM9n7tq8OAlZuc/tSnQediybKYpNBNjgLU5ZRhRcErLLtXkdXZaaa9CbKJrP7VG5GRRcEqhuCgNVf6pYiKrqyUbnZNFGBofPqFhqq4LRTg4BV5B+zrVl0gBqJTDcMNbyd54HHnXlUaakQORkKLL1XgAUeQzrbH9cAEjLFzYBaQl0mRCW2Y0pqHq6JybsqMW+zzX7IoqrSURZRr64LCldiU2haP7zenI8lHoNFu5yiL0G3L+q6fDHlWXvp4J0jDVhnWYY7VCz2/mhSgdYuL7SKCQUjH+y7tlf/P854GrDGacsctp2Sa0eXZnVCJ8Gqp5Zj/kp6kyHAGq+2UMFBXwM6CzoJVilzgk1PiTsnFLizoUuBFUQW4M6CLg02D3Dd0KXC5gVuQeuSQGe7qjNdOmwRYI1VAFMgqwK6EtiiwFVBJ8GqSdCduP7NJVmDlm+SMj2dBqvUoxSUW8oALsvTlcOWsaWjb7qIp2uBLRs4r6drg60CuAWthsO9BNQzt/auFbYqYNnV9yPdIiZBSy+u61EULhygfJGtrKDls62fMak40UWCK+ps9GW/9RUx+vyo/epRKBrHhfEqgdM87VtTZZ5tTVY1cBboymGrPMOu95LOtHRrga0TOMnTtcHWDaz59PsOXRcpoEn0requouViXICqO0rHrUM3jvOBn4E3zEd2/YSwNqkjaNUGEzJRGzjkLXVlnbaHu7L3Qtbe9nDIW+rKOmcAzK35PacTcBAAAAAASUVORK5CYII="/>
-                      <h3 class="mt-8 text-lg font-semibold text-black group-hover:text-white ">
-                          jodoh</h3>
-                      <p class="mt-4 text-base text-gray-600 group-hover:text-white">pengen dapet jodoh yang terbaik bagi saya
-                          deserunt ullamco est sit aliqua dolor
-                          do amet sint. Velit officia consequat duis enim velit mollit.</p>
-                  </div>
-              </a>
-
-              <footer class="bg-gray-200 items-center">
-                <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between items-center">
-                    
-                  <span class="text-sm text-center text-gray-500  dark:text-gray-400">© 2024 <a href="" class="hover:underline text-center">Dhafin</a>. All Rights Reserved.
+  </section>
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-wrap -m-4">
+        <div class="p-4 md:w-1/3">
+          <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+            <video class="h-full w-full rounded-lg" controls>
+              <source
+                src="/src/img/2024-05-07 09-51-29.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>            <div class="p-6">
+              <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1>
+              <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+              <div class="flex items-center flex-wrap ">
+                <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+                <span class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                    <circle cx="12" cy="12" r="3"></circle>
+                  </svg>1.2K
                 </span>
-                
-                </div>
-            </footer>
-            
+                <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                    <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                  </svg>6
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/3">
+          <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+            <video class="h-full w-full rounded-lg" controls>
+              <source
+                src="/src/img/Untitled video - Made with Clipchamp.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>              <div class="p-6">
+              <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The 400 Blows</h1>
+              <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+              <div class="flex items-center flex-wrap">
+                <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+                <span class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                    <circle cx="12" cy="12" r="3"></circle>
+                  </svg>1.2K
+                </span>
+                <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                    <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                  </svg>6
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/3">
+          <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+            <video class="h-full w-full rounded-lg" controls>
+              <source
+                src="/src/img/adwwad.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>              <div class="p-6">
+              <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The 400 Blows</h1>
+              <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+              <div class="flex items-center flex-wrap">
+                <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+                <span class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                    <circle cx="12" cy="12" r="3"></circle>
+                  </svg>1.2K
+                </span>
+                <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                    <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                  </svg>6
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+  </section>
               
   <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 
